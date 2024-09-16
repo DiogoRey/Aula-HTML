@@ -3,9 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exercício de Html</title>
+    <style>
+        table, td, tr, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Aula HTML</h1>
+    </header>
+    <div class="container"></div>
+    <section>
+        <h2>Listas</h2>
+        <div class="flex-container-start">
+        </div>
+        <h5>Ordenada</h5>
+        <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Java</li>
+    </ol>
+    <ul>
+        <li>Programação</li>
+        <li>Linguagens</li>
+        <li>Navegador</li>
+    </ul>
+    </section>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Notebook</th>
+                    <th>Computador</th>
+                    <th>Mouse</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Vermelho</td>
+                    <td colspan="2">Branco</td>
+                    <td>Preto</td>
+                </tr>
+                <tr>
+                    <td>Amarelo</td>
+                    <td>Azul</td>
+                    <td>Cinza</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>Botões</h2>
+        <a href="https://www.mercadolivre.com.br/">Mercado Livre</button></a>
+    </section>
+    <section>
+        <h2>Layout Flexbox</h2>
+        <div class="fle-container">
+            <div class="flex-item">Item 1</div>
+            <div class="flex-item">Item 2</div>
+            <div class="flex-item">Item 3</div>
+        </div>
+
+    </section>
 </body>
 </html>
